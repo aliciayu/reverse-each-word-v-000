@@ -3,7 +3,6 @@ def reverse_each_word(sentence)
   reverse_sentence = []
   words.length.times.each do |i|
     reverse_sentence[i] = words[i].reverse
-    reverse_sentence.collect
   end
   reverse_sentence.join(" ")
 end
